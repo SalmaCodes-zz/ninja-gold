@@ -1,0 +1,43 @@
+#wrapper {
+    width: 900px;
+    margin: 10px auto;
+    text-align: center;
+}
+.building {
+    border: 2px solid black;
+    width: 200px;
+    vertical-align: top;
+    display: inline-block;
+    margin: 0 9px;
+}
+#activities {
+    border: 2px solid black;
+    text-align: left;
+    padding-left: 10px;
+    height: 150px;
+    margin-bottom: 10px;
+    overflow: scroll;
+}
+input[type="submit"] {
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    padding: 5px;
+    font-size: 0.8em;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    background-color: gold;
+}
+input[type="submit"].reset {
+    background-color: lightblue;
+    font-size: 1.2em;
+    padding: 5px 10px;
+}
+.green {
+    color: green;
+}
+.red {
+    color: #d50000;
+}
+p {
+    margin: 5px 0
+}
